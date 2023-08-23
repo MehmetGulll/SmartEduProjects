@@ -1,0 +1,36 @@
+@import '../../theme/theme.scss';
+.signupMainContainer{
+    margin-top: 20px;
+}
+.signupContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $inputContainerColor;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+}
+.registerPost{
+    width: 50%;
+}
+input{
+    height: 5vh;
+    margin-top: 18px;
+    border-radius: 5px;
+    border : 2px solid #bdbebd;
+}
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 35px;
+}
+.registerButton{
+    background-color: $inputContainerColor;
+    color: white;
+}

@@ -1,0 +1,89 @@
+@import '../../theme/theme.scss';
+.coursesImage{
+    background-image: url("../../../public/Kep2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.coursesImageTag{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 60px;
+    color: $homeAndHoverColor;
+}
+.coursesImageText{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+.courseContainer{
+    width: 35%;
+    margin: auto;
+    margin-top: 25px;
+    &:hover{
+        .courseTag{
+            color:$homeAndHoverColor ;
+        }
+    }
+}
+.courseImage{
+    background-image: url("../../../public/Ders.webp");
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.courseLink{
+    text-decoration: none;
+    color: black;
+}
+.courseTag{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+.courseDesc{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.courseDetails{
+    border: 1px solid #87CEEB;
+    padding: 10px;
+    
+}
+.coursePerson{
+   border: 1px solid #87CEEB;
+   font-family: 'Poppins';
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   
+}
+.courseSearch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.courseText{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color:#a0a0a0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
